@@ -10,6 +10,21 @@ h1 {
     color: white;
 }
 
+#canvas {
+    width: 300px;
+    height: 300px;
+    border: 3px solid green;
+    position: relative;
+}
+
+#ball {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+}
+
 #button {
     width: 200px;
     height: 150px;

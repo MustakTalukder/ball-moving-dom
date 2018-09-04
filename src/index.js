@@ -1,7 +1,3 @@
-import {
-    create
-} from './helper'
-
 let left = document.getElementById('left')
 let right = document.getElementById('right')
 let top = document.getElementById('top')
@@ -11,29 +7,6 @@ let down = document.getElementById('down')
 let cv = document.getElementById('canvas')
 let ball = document.getElementById('ball')
 
-const cvStyle = {
-    width: '300px',
-    height: '300px',
-    border: '3px solid green',
-    position: 'relative'
-
-}
-
-const ballStyle = {
-    width: '30px',
-    height: '30px',
-    borderRadius: '50%',
-    background: 'red',
-    position: 'absolute'
-}
-
-window.onload = function () {
-
-    Object.assign(cv.style, cvStyle)
-    Object.assign(ball.style, ballStyle)
-}
-
-let currentLeft
 
 left.addEventListener('click', function (event) {
     changBall(left)
