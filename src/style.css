@@ -1,0 +1,69 @@
+#canvas {
+    background: rgb(111, 224, 126);
+}
+
+h1 {
+    background: rgb(3, 10, 77);
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+#button {
+    width: 200px;
+    height: 150px;
+    background: rgb(111, 224, 126);
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid rgb(8, 102, 32)
+}
+
+#right {
+    width: 52px;
+    height: 40px;
+    right: 5px;
+    top: 54px;
+    position: absolute;
+    border-radius: 20%;
+    text-align: center;
+    color: white;
+    background: rgb(240, 15, 15);
+}
+
+#left {
+    width: 52px;
+    height: 40px;
+    left: 5px;
+    top: 54px;
+    position: absolute;
+    border-radius: 20%;
+    text-align: center;
+    color: white;
+    background: rgb(240, 15, 15);
+}
+
+#down {
+    width: 53px;
+    height: 42px;
+    position: absolute;
+    border-radius: 20%;
+    left: 74px;
+    bottom: 5px;
+    text-align: center;
+    color: white;
+    background: rgb(240, 15, 15);
+}
+
+#top {
+    width: 52px;
+    height: 40px;
+    left: 74px;
+    top: 5px;
+    position: absolute;
+    border-radius: 20%;
+    text-align: center;
+    color: white;
+    background: rgb(240, 15, 15);
+}
